@@ -2,7 +2,7 @@ import React from 'react';
 import Main from './components/Main';
 import Wrapper from './components/Wrapper';
 import Header from './components/Header';
-import SearchBox from './components/SearchBox';
+// import SearchBox from './components/SearchBox';
 import "./App.css";
 
 function App() {
@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       <Wrapper>
         <Header />
-        <SearchBox />
         <Main />
       </Wrapper>
     </div>

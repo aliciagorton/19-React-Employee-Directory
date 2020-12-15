@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import DataTable from "../DataTable";
-import Navbar from "../Navbar/index.js";
+import SearchBox from '../SearchBox';
 import API from "../../utils/API";
 import "./dataArea.css";
 import DataAreaContext from "../../utils/DataAreaContext"
@@ -87,8 +87,8 @@ return b[heading]-  a[heading];
       return (
         <DataAreaContext.Provider
           value={{ developerState, handleSearchChange, handleSort }}
-        >
-          <Navbar />
+        > 
+        <SearchBox />
           <div className="data-area">
             {developerState.filteredUsers.length > 0 
     ? <DataTable />
@@ -96,7 +96,8 @@ return b[heading]-  a[heading];
      }
           </div>
         </DataAreaContext.Provider>
-      );
-    }
-    
-    export default DataArea;
+     
+        );
+      }
+export default DataArea;
+  

@@ -7,7 +7,9 @@
     color: #d5dce2;
     background-color: #0f3657;
     padding: 1rem;
-    padding-left: 750px;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
    
 }
 .searchbox button{
