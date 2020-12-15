@@ -20,7 +20,7 @@ The user should be able to:
 
 ## Submission:
 
-* the URL to the deployed application:
+* the URL to the deployed application:https://employee-directory-with-react.herokuapp.com/
 
 * the URL to the Github repository: https://github.com/aliciagorton/19-React-Employee-Directory.git
 
